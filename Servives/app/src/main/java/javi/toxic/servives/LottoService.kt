@@ -16,7 +16,6 @@ class LottoService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
 
-
         Thread{
             val lottoNumber = IntArray(7) { Random.nextInt(0,100) }
 
