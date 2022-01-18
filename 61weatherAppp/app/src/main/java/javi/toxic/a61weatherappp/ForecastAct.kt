@@ -27,7 +27,7 @@ class ForecastAct : AppCompatActivity() {
         setContentView(R.layout.activity_forecast2)
         val intent = getIntent()
         location = intent.getStringExtra("location").toString()
-        
+
         cityLocation = findViewById(R.id.cityLocation)
 
         //queue = Volley.newRequestQueue(this)
